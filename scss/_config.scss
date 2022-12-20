@@ -1,0 +1,25 @@
+$backround-body:#f4f4f4;
+$white-color:white;
+$blue-color:rgb(0, 132, 255) ;
+$green-color:rgb(5, 146, 5);
+$box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+
+
+@mixin flex($justify-content){
+    display: flex;
+    align-items: center;
+    justify-content: $justify-content;
+}
+
+@mixin heightwidth{
+    width: 33,3%;
+    height: 100%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}

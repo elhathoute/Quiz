@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+body nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+body nav .logo-container {
+  width: 33, 3%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body nav .logo-container img {
+  max-height: 100%;
+}
+body nav .logo-container img:hover {
+  cursor: pointer;
+}
+body nav .nav-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33, 3%;
+  height: 100%;
+}
+body nav .nav-button-container a {
+  text-decoration: none;
+  padding: 20px;
+  transition: 300ms;
+  margin: 0px 10px 0px 10px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+body nav .nav-button-container a:hover {
+  background-color: rgb(0, 162, 255);
+  border-radius: 10px;
+}
+body nav .burger-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 33, 3%;
+  height: 100%;
+}
+body nav .burger-button-container i {
+  margin-left: 80%;
+  padding: 10px;
+  font-size: 25px;
+  transition: 300ms;
+}
+body nav .burger-button-container i:hover {
+  background-color: rgb(0, 132, 255);
+  border-radius: 10px;
+  cursor: pointer;
+}
+body .start_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(14, 13, 13, 0.2), 0 6px 20px 0 rgba(117, 162, 240, 0.19);
+}
+body .start_btn button {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background: rgb(5, 146, 5);
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
